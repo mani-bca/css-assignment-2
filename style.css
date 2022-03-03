@@ -1,0 +1,161 @@
+html {
+  height: fit-content;
+  margin: 0;
+  border: 5px solid green;
+  border-style: inset;
+  background-image: url(clouds.jpg);
+}
+body {
+  border: 5px solid greenyellow;
+  margin: 0;
+  height: fit-content;
+  border-style: inset;
+}
+
+.flex-container {
+  width: 100%;
+  margin-top: 10px;
+  display: inline-flex;
+  position: relative;
+}
+.welcome-to {
+  display: inline;
+  position: absolute;
+  text-align: center;
+  margin: 10px;
+  font-style: italic;
+  background-color: black;
+  color: aliceblue;
+  height: 150px;
+  border-radius: 30px;
+  border: 5px solid red;
+  width: 400px;
+}
+.home-menu {
+  display: flex;
+  font-style: italic;
+  position: absolute;
+  left: 300px;
+  top: 20px;
+  /* width: 300px; */
+  width: fit-content;
+  height: 70px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 30px;
+  margin: 3px;
+  border: 5px solid red;
+}
+.home-menu h1 {
+  display: inline;
+  margin-left: 60px;
+  margin-right: 60px;
+  align-items: flex-end;
+}
+
+.right-content {
+  font-style: italic;
+  width: 300px;
+  height: fit-content;
+  display: inline;
+  flex-wrap: wrap;
+  text-align: center;
+  border-radius: 30px;
+  position: relative;
+  border: 5px solid red;
+  background-color: black;
+  color: white;
+  left: 75%;
+  margin: 10px;
+}
+
+.container2 {
+  margin-top: 50px;
+  display: flex;
+}
+.offers {
+  font-style: italic;
+  margin-top: 200px;
+  display: inline;
+  margin-left: 100px;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: rgb(14, 169, 169);
+  color: black;
+  border: 5px solid rgb(99, 95, 95);
+}
+
+.offers h2 {
+  align-content: center;
+  display: block;
+  position: relative;
+  top: 40px;
+  text-decoration: underline;
+  justify-content: center;
+  align-content: center;
+  font-size: 1rem;
+  margin-top: 50px;
+}
+.offers hr {
+  position: relative;
+  top: 50px;
+  color: antiquewhite;
+}
+
+.form {
+  background-color: white;
+  width: 400px;
+  color: red;
+  position: relative;
+  /* left: 200px; */
+  text-align: center;
+  border: 5px solid red;
+  border-style: dotted;
+  margin-left: 100px;
+  padding-bottom: 30px;
+}
+
+.menu {
+  margin: auto;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  display: flex;
+  border-radius: 30px;
+  border: 5px solid red;
+  margin-top: 40px;
+  width: 500px;
+  justify-content: center;
+}
+
+.menu h1 {
+  position: relative;
+  display: flex;
+}
+
+.menu-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  justify-content: space-between;
+}
+
+.item {
+  width: 350px;
+  margin: 20px;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid darkgreen;
+  background-color: aqua;
+}
+
+.list {
+  display: flex;
+}
+
+.names {
+  width: 70%;
+}
