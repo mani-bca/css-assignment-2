@@ -112,7 +112,7 @@ body {
   /* left: 200px; */
   text-align: center;
   border: 5px solid red;
-  border-style: dotted;
+  border-style: dashed;
   margin-left: 100px;
   padding-bottom: 30px;
 }
