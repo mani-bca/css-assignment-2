@@ -9,7 +9,7 @@ COPY index.html .
 COPY style.css .
 COPY clouds.jpg .
 # Expose port 80 for the web server
-EXPOSE 80
+EXPOSE 8080
 
 # Start Nginx when the container runs
 CMD ["nginx", "-g", "daemon off;"]
